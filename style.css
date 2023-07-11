@@ -38,15 +38,6 @@ body {}
     margin: 15px 0;
 }
 
-.btn {
-    border: none;
-    background-color: #E55473;
-    padding: 15px 35px;
-    color: white;
-    border-radius: 5px;
-    position: absolute;
-}
-
 .contain2 img {
     width: 400px;
     height: 500px;
@@ -96,8 +87,8 @@ body {}
 /* Hot Deal ! Sale Up To 25% Off */
 .deal {
     background: rgba(229, 84, 115, 0.05);
-width: 100%;
-height:auto;
+    width: 100%;
+    height: auto;
 }
 
 .deal-heading {
@@ -105,9 +96,11 @@ height:auto;
     align-items: center;
     justify-content: space-around;
 }
-.deal-item{
+
+.deal-item {
     text-align: center;
 }
+
 .deal-item h2 {
     color: #272727;
     font-family: Lato;
@@ -117,44 +110,51 @@ height:auto;
     line-height: normal;
     margin: 15px 0;
 }
-.deal-item p{
+
+.deal-item p {
     color: rgba(39, 39, 39, 0.60);
-text-align: center;
-font-family: Lato;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px;
-margin: 15px 0;
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 15px 0;
 }
-.deal-img img{
+
+.deal-img img {
     width: 300px;
-    height:350px;
+    height: 350px;
 }
 
 /* Instagram */
-.main-ints{
+.main-ints {
     padding: 80px;
     position: absolute;
 }
-.inst-title{
+
+.inst-title {
     margin-left: 100px;
     text-align: center;
 }
-.inst-img{
+
+.inst-img {
     display: flex;
     margin: 50px 0;
 }
-.box{
+
+.box {
     display: block;
     width: 20%;
     margin: 15px;
 }
-.box img{
+
+.box img {
     width: 100%;
 }
+
 /* Get The Latest Deals */
-.get-pitu{
+.get-pitu {
     background-image: url("Flower Asset/Rectangle\ 9.png");
     padding: 100px;
     overflow: hidden;
@@ -163,10 +163,45 @@ margin: 15px 0;
     border-radius: 5px;
     margin-right: 70px;
 }
-.get-pitu h2{
-    color: #272727;;
-    margin:10px 0;
+
+.get-pitu h2 {
+    color: #272727;
+    ;
+    margin: 10px 0;
     font-size: 30px;
     font-weight: 800;
     font-family: Lato;
+}
+
+.get-pitu p {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Toto;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+label {
+    position: relative;
+
+}
+
+input {
+    border: none;
+    width: 400px;
+    height: 30px;
+    padding: 0 16px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+button {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #E55473;
+    border: none;
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
 }
