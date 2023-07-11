@@ -131,3 +131,42 @@ margin: 15px 0;
     width: 300px;
     height:350px;
 }
+
+/* Instagram */
+.main-ints{
+    padding: 80px;
+    position: absolute;
+}
+.inst-title{
+    margin-left: 100px;
+    text-align: center;
+}
+.inst-img{
+    display: flex;
+    margin: 50px 0;
+}
+.box{
+    display: block;
+    width: 20%;
+    margin: 15px;
+}
+.box img{
+    width: 100%;
+}
+/* Get The Latest Deals */
+.get-pitu{
+    background-image: url("Flower Asset/Rectangle\ 9.png");
+    padding: 100px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    text-align: center;
+    border-radius: 5px;
+    margin-right: 70px;
+}
+.get-pitu h2{
+    color: #272727;;
+    margin:10px 0;
+    font-size: 30px;
+    font-weight: 800;
+    font-family: Lato;
+}
