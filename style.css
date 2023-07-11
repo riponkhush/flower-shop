@@ -215,12 +215,12 @@
 /* Get The Latest Deals */
 .get-pitu {
     background-image: url("Flower Asset/Rectangle\ 9.png");
-    padding: 60px;
-    overflow: hidden;
-    background-repeat: no-repeat;
-    text-align: center;
+    padding: 50px;
     border-radius: 5px;
     background-size: cover;
+    background-repeat: no-repeat;
+    width: 80%;
+    margin: auto;
 }
 
 .get-pitu h2 {
