@@ -2,9 +2,6 @@
     margin: 0;
     padding: 0;
 }
-body{
-
-}
 /* header section */
 .main-container {
     background: rgba(229, 84, 115, 0.10);
@@ -231,7 +228,6 @@ body{
 
 .get-pitu h2 {
     color: #272727;
-    ;
     margin: 10px 0;
     font-size: 30px;
     font-weight: 800;
@@ -248,9 +244,7 @@ body{
 
 label {
     position: relative;
-
 }
-
 input {
     border: none;
     width: 400px;
@@ -286,7 +280,6 @@ button {
     font-size: 30px;
     font-weight: 800;
     margin: 10px 0;
-    font-style: normal;
 }
 
 .flw {
@@ -295,7 +288,6 @@ button {
 
 .ft-p {
     color: white;
-    text-align: center;
     font-size: 12px;
     font-weight: 400;
     line-height: 20px;
@@ -303,10 +295,8 @@ button {
 
 .copy {
     color: rgba(255, 255, 255, 0.40);
-    text-align: center;
     font-family: Lato;
     font-size: 10px;
-    font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
