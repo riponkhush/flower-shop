@@ -42,16 +42,40 @@
     font-style: normal;
 }
 
+.btn {
+    border-radius: 5px;
+    background: #E55473;
+    padding: 10px 15px;
+    border: none;
+}
+
 /* Our Featured Flowers */
 .flowers {
     background-color: white;
+}
+
+.fl-title h2 {
+    color: #272727;
+    font-family: Lato;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    margin: 10px 0;
+}
+
+.fl-title p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 10px 0;
 }
 
 .flower-title {
     text-align: center;
     margin: 55px;
     position: relative;
-
 }
 
 .flower-item {
@@ -66,16 +90,17 @@
     width: 100%;
     height: auto;
 }
-.item-image{
+
+.item-image {
     height: 300px;
     padding: 30px 30px 0px 30px;
 }
 
-.item-image1{
+.item-image1 {
     height: 300px;
     padding: 30px 30px 0px 30px;
     width: 250px;
-} 
+}
 
 
 .item1 {
@@ -108,9 +133,10 @@
     padding: 100px;
 }
 
-.off-clor{
-    color:#E55473 ;
+.off-clor {
+    color: #E55473;
 }
+
 .deal-item {
     text-align: center;
 }
@@ -143,12 +169,29 @@
 
 /* Instagram */
 .main-ints {
-    padding: 80px;
+    padding: 100px;
+    margin-right: -44px;
 }
 
 .inst-title {
-    margin-left: 100px;
     text-align: center;
+}
+
+.title h1 {
+    color: #272727;
+    font-family: Lato;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: normal;
+    margin: 10px 0;
+}
+
+.title p {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
 }
 
 .inst-img {
@@ -224,30 +267,41 @@ button {
 }
 
 /* Footer */
-.footer{
-    color:white;
+.footer {
+    color: white;
     display: flex;
     justify-content: center;
     text-align: center;
     padding: 50px;
     background-color: black;
 }
-.footerTitle{
+
+.footerTitle {
     font-family: Lato;
     font-size: 30px;
     font-weight: 800;
     margin: 10px 0;
     font-style: normal;
 }
-.flw{
+
+.flw {
     color: #E55473;
 }
-.footer p{
-    color: rgba(255, 255, 255, 0.90);
-text-align: center;
-font-family: Lato;
-font-size: 10px;
-font-style: normal;
-font-weight: 400;
-line-height: 20px;
+
+.ft-p {
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.copy {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
