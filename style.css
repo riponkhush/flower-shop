@@ -2,8 +2,9 @@
     margin: 0;
     padding: 0;
 }
+body{
 
-
+}
 /* header section */
 .main-container {
     background: rgba(229, 84, 115, 0.10);
@@ -40,6 +41,7 @@
     height: 500px;
     margin-top: 100px;
     font-style: normal;
+    display: ;
 }
 
 .btn {
@@ -102,6 +104,7 @@
 
 
 .item1 {
+    display: flex;
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
     margin: 20px 0;
@@ -118,6 +121,7 @@
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
     margin: 20px 0;
+    display: flex;
 }
 
 /* Hot Deal ! Sale Up To 25% Off */
